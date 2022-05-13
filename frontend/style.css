@@ -1,1 +1,102 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  background-color: #f2f2f2;
+}
+
+#center-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  color: #006837;
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 24px;
+  }
+  #table {
+    width: 100vw;
+  }
+  input::-webkit-input-placeholder {
+    width: 100vw;
+    height: 40px;
+  }
+  input:-ms-input-placeholder {
+    width: 100vw;
+    height: 40px;
+  }
+  input::-ms-input-placeholder {
+    width: 100vw;
+    height: 40px;
+  }
+  input::placeholder {
+    width: 100vw;
+    height: 40px;
+  }
+}
+
+#table {
+  width: 520px;
+  max-width: 520px;
+  height: auto;
+  background-color: #f9c582;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #446745;
+}
+
+::-webkit-input-placeholder {
+  max-width: 480px;
+  max-height: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #446745;
+  background-color: #f2f2f2;
+}
+
+:-ms-input-placeholder {
+  max-width: 480px;
+  max-height: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #446745;
+  background-color: #f2f2f2;
+}
+
+::-ms-input-placeholder {
+  max-width: 480px;
+  max-height: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #446745;
+  background-color: #f2f2f2;
+}
+
+::placeholder {
+  max-width: 480px;
+  max-height: 64px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #446745;
+  background-color: #f2f2f2;
+}
+/*# sourceMappingURL=style.css.map */
